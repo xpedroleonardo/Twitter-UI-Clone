@@ -25,7 +25,7 @@ export const Banner = styled.div`
     width: 100%;
     height: min(33vw, 199px);
 
-    background: var (--twitter);
+    background: var(--twitter);
 
     position: relative;
 
@@ -108,7 +108,7 @@ export const Followage = styled.div`
         color: var(--gray);
 
         & + span {
-            margin-right: 20px;
+            margin-left: 20px;
         }
     }
 `;
