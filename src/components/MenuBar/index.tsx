@@ -1,8 +1,8 @@
 import React from 'react';
 
 import {
-    Container, Topside, Logo, MenuButton, HomeIcon,BellIcon, EmailIcon,
-    FavoriteIcon, ProfileIcon, Botside, Avatar, ProfileData, ExitIcon
+    Container, Topside, Logo, MenuButton, HomeIcon, HashtagIcon, BellIcon, EmailIcon,
+    SaveIcon, ListIcon, ProfileIcon, DotsIcon, Botside, Avatar, ProfileData, ExitIcon
 } from './styles';
 
 import Button from '../Button';
@@ -19,6 +19,11 @@ const MenuBar: React.FC = () => {
                 </MenuButton>
 
                 <MenuButton>
+                    <HashtagIcon />
+                    <span>Explorar</span>
+                </MenuButton>
+
+                <MenuButton>
                     <BellIcon />
                     <span>Notificações</span>
                 </MenuButton>
@@ -29,13 +34,23 @@ const MenuBar: React.FC = () => {
                 </MenuButton>
 
                 <MenuButton>
-                    <FavoriteIcon />
-                    <span>Favoritados</span>
+                    <SaveIcon />
+                    <span>Itens salvos</span>
+                </MenuButton>
+
+                <MenuButton>
+                    <ListIcon />
+                    <span>Listas</span>
                 </MenuButton>
 
                 <MenuButton className="active">
                     <ProfileIcon />
                     <span>Perfil</span>
+                </MenuButton>
+
+                <MenuButton>
+                    <DotsIcon />
+                    <span>Mais</span>
                 </MenuButton>
 
                 <Button>

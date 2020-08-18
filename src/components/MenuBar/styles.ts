@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
-import { Home, Notifications, Email, FavoriteBorder, Person, ExitToApp, Rocketseat } from '../../styles/Icons';
+import { Home, Notifications, Email, Person, ExitToApp,
+Rocketseat, Hashtag, Pending, BookmarkBorder, FileList2 } from '../../styles/Icons';
 
 export const Container = styled.div`
   display: none;
@@ -119,9 +120,15 @@ export const BellIcon = styled(Notifications)`${IconsCSS}`;
 
 export const EmailIcon = styled(Email)`${IconsCSS}`;
 
-export const FavoriteIcon = styled(FavoriteBorder)`${IconsCSS}`;
+export const HashtagIcon = styled(Hashtag)`${IconsCSS}`;
+
+export const SaveIcon = styled(BookmarkBorder)`${IconsCSS}`;
+
+export const ListIcon = styled(FileList2)`${IconsCSS}`;
 
 export const ProfileIcon = styled(Person)`${IconsCSS}`;
+
+export const DotsIcon = styled(Pending)`${IconsCSS}`;
 
 
 export const Botside = styled.div`
