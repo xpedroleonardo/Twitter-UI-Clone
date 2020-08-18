@@ -80,7 +80,7 @@ export const ProfileData = styled.div`
             font-size: 15px;
             color: var(--gray);
 
-            >svg {
+            > svg {
                 fill: var(--gray);
                 margin-right: 5px;
             }

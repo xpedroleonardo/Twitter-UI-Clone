@@ -75,7 +75,7 @@ export const Header = styled.div`
     }
 
     > span, time {
-        color: var (--gray);
+        color: var(--gray);
 
     }
 

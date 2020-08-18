@@ -31,13 +31,13 @@ const Tweet: React.FC = () => {
 
                 <Content>
                     <Header>
-                        <strong>Rocketsear</strong>
+                        <strong>Rocketseat</strong>
                         <span>@rocketseat</span>
                         <Dot />
                         <time>15 de ago</time>
                     </Header>
 
-                    <Description>Foguete não tem ré</Description>
+                    <Description>Foguete não tem ré <span role="img" aria-label="Rocket">🚀</span></Description>
 
                     <ImageContent />
 
